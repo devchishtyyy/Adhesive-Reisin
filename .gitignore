@@ -1,0 +1,113 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.vite/
+.cache/
+.tmp/
+.temp/
+coverage/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor/IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.eslintcache
+.stylelintcache
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+*.swp
+*.swo
+*.tmp
+node_modules# ---------------------------------------------------------------
+# Node.js/npm
+# ---------------------------------------------------------------
+
+# Dependency directories
+node_modules/
+
+# Build/Distribution directories
+/dist/
+/build/
+/out/
+/coverage/
+
+# Compiled/Runtime files
+*.js.map
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js/Gatsby/Vite/Common frameworks
+.next/
+.nuxt/
+.cache/
+/public/build/
+/esm/
+
+# Environment files (DANGER: DO NOT COMMIT SECRETS)
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# ---------------------------------------------------------------
+# Operating System & IDE
+# ---------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+
+# ---------------------------------------------------------------
+# Logs and Misc
+# ---------------------------------------------------------------
+*.log
+/logs/
+*.bak
+*.tmp
